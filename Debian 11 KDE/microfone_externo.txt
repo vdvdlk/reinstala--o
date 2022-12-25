@@ -1,0 +1,4 @@
+Adicionar a linha
+options snd-hda-intel model=headset-mic
+ao criar o arquivo local.conf com localização
+/etc/modprobe.d

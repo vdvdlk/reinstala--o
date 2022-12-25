@@ -1,0 +1,10 @@
+com.discordapp.Discord
+com.github.tchx84.Flatseal
+com.obsproject.Studio
+com.stremio.Stremio
+io.crow_translate.CrowTranslate
+org.fedoraproject.MediaWriter
+org.geogebra.GeoGebra
+org.telegram.desktop
+org.telegram.desktop.webview
+us.zoom.Zoom

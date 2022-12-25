@@ -1,0 +1,208 @@
+﻿ https://www.balena.io/etcher/
+
+https://wiki.debian.org/iwlwifi
+
+https://averagelinuxuser.com/debian-10-after-install/#10-install-restricted-extras-packages
+
+sudo dmesg
+
+Externos
+	Discord
+	Google Chrome
+#	Popcorn Time https://itsfoss.com/popcorn-time-ubuntu-linux/
+	Microsoft Teams - teams
+	Sublime Text Editor
+	Visual Studio
+	Zoom
+
+Snap
+
+	snap install
+		heimer
+		musixmatch
+		spotify
+
+	snap remove
+		snap-store
+
+Pacotes Debian
+
+	apt install
+		albatross-gtk-theme
+		apt-file
+		arduino
+		audacity
+		blackbird-gtk-theme
+		bluebird-gtk-theme
+		blueman
+	#	caffeine
+		calibre
+		chromium
+		codeblocks
+	#	cups
+		deja-dup
+		digimend-dkms
+	#	firmware-misc-nonfree
+		flatpak
+		galculator
+		gdebi
+		geary
+		gimp
+		gnome-boxes
+		gnome-cards-data
+		gnome-disk-utility
+		gnome-multi-writer
+		gnome-online-accounts
+		gnome-shell-extension-appindicator
+		gnome-shell-extension-caffeine
+		gnome-shell-extension-desktop-icons
+		gnome-shell-extension-no-annoyance
+		gnome-shell-extensions-gpaste
+		gnome-shell-pomodoro
+		gnome-software-plugin-flatpak
+		gnome-software-plugin-snap
+		gnome-system-tools
+		gparted
+		greybird-gtk-theme
+		grub-customizer
+		hplip-gui
+		idle
+		jabref
+		jupyter
+		jupyter-notebook
+		libappindicator1
+		libappindicator3-1
+		linssid
+		mugshot
+		myspell-pt
+		neofetch
+		netselect-apt
+		ntp
+		obs-studio
+		okular
+		olive-editor
+		openboard
+		pavucontrol
+		plasma-discover
+		plasma-discover-backend-flatpak
+		plasma-discover-backend-fwupd
+		plasma-discover-backend-snap
+		python3-lmfit
+		python3-matplotlib
+		python3-pandas
+		python3-pint
+		python3-uncertainties
+		redshift-gtk
+		simple-scan
+		speedtest-cli
+		snapd
+		synaptic
+		telegram-desktop
+		texlive-full
+		texmaker
+		texstudio
+		timeshift
+		tlp
+		transmission
+		virtualbox # d
+		vlc
+		wxmaxima
+		xournal
+		youtubedl-gui
+
+
+Pacotes Ubuntu
+
+	apt install
+		aisleriot
+		audacity
+		calibre
+		chiaki
+		curl
+		deja-dup
+		flatpak
+		geary
+		gimp
+		gnome-2048
+		gnome-boxes
+		gnome-cards-data
+		gnome-clocks
+		gnome-mines
+		gnome-multi-writer
+		gnome-shell-extensions-gpaste
+		gnome-shell-extension-arc-menu
+		gnome-shell-extension-caffeine
+		gnome-shell-extension-dash-to-panel
+		gnome-shell-extension-no-annoyance
+		gnome-shell-mailnag
+		gnome-shell-pomodoro
+		gnome-software
+		gnome-software-plugin-flatpak
+		gnome-sushi
+		gnome-tweaks
+		gnome-weather
+		gnome-multi-writer
+		gnote
+		gparted
+		grub-customizer
+		idle
+		linssid
+		mupen64plus-qt
+		myspell-pt
+		neofetch
+		netselect-apt
+		pavucontrol
+		python
+		python3
+		redshift
+		speedtest-cli
+		steam-installer
+		synaptic
+		telegram-desktop
+		texlive-full
+		texmaker
+		timeshift
+		tlp
+		transmission
+		ubuntu-wallpapers-eoan
+		units
+		virtualbox # d
+		vlc
+		wallch # d
+		wmctrl # d
+		wxmaxima
+		youtube-dl
+
+	apt remove
+		popularity-contest
+
+Flatpak (flatpak.org/setup/Ubuntu/)
+
+	flatpak install
+		com.discordapp.Discord
+		com.getferdi.Ferdi
+		com.github.gi_lom.dialect
+		com.github.tchx84.Flatseal
+		com.meetfranz.Franz
+	#	com.skype.Client
+		com.snes9x.Snes9x
+		com.stremio.Stremio.desktop
+		com.system76.Popsicle
+		com.valvesoftware.Steam
+		uk.co.ibboard.cawbird
+
+Extensões
+	https://extensions.gnome.org/extension/906/sound-output-device-chooser/
+	https://extensions.gnome.org/extension/19/user-themes/
+	https://extensions.gnome.org/extension/615/appindicator-support/
+	https://extensions.gnome.org/extension/1036/extensions/
+
+WiFi
+	HP-Print-AF-Deskjet 2540 series
+		22422424
+	VIVOFIBRA-A898
+		72231CA898
+		
+Minimizar no click
+gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize'
+gsettings reset org.gnome.shell.extensions.dash-to-dock click-action

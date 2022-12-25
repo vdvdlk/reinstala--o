@@ -1,0 +1,22 @@
+Colocar os repositórios contrib non-free
+
+Colocar o repositório backport:
+
+deb http://deb.debian.org/debian bullseye-backports main contrib non-free
+deb-src http://deb.debian.org/debian bullseye-backports main contrib non-free
+
+Adicionar a arquitetura 32 bit
+sudo dpkg --add-architecture i386
+
+Colocar o repositório do Google Chrome, colocando o arquivo google-chrome.list na pasta /etc/apt/sources.list.d
+
+Colocar o arquivo local.conf na pasta /etc/modprobe.d
+
+Instalar os pacotes deb
+sudo apt install $(cat apt.txt)
+
+Instalar flatpaks
+flatpak install $(cat flatpak.txt)
+
+Instalar snaps
+

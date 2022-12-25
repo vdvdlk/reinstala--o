@@ -1,0 +1,4 @@
+Adicionar a linha
+options snd-hda-intel model=headset-mic
+ao arquivo alsa-base.conf com localização
+/etc/modprobe.d
